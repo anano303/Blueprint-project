@@ -1,17 +1,30 @@
 .main {
   background-image: url(../Assets/მთავარუ.jpg);
-  padding: 20px 40px;
+  padding: 60px 20px 200px 20px;
   margin-bottom: 35px;
-  color: rgb(52, 217, 239);
+  color: rgb(223, 237, 239);
+  display: flex;
+  gap: 80px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .poto {
   max-width: 100%;
   margin-top: 35px;
 }
-.home-h2 {
+.main h1 {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 2px;
   text-align: center;
 }
-.home-h2 span {
-  border: 2px solid pink;
-  padding: 1px;
+.main p {
+  font-family: "Kode Mono";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  text-align: center;
 }

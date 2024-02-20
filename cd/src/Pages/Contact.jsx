@@ -1,5 +1,7 @@
+import "./contact.css";
+
 const Contact = () => {
-  return <div>Contact</div>;
+  return <div className="contact"></div>;
 };
 
 export default Contact;

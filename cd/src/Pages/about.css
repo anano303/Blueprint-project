@@ -1,0 +1,7 @@
+.about {
+  background-image: url(../Assets/ვინ\ ვართ\ ჩვენ.jpg);
+  background-size: contain;
+  padding: 280px 20px 100px 20px;
+  text-align: center;
+  color: aliceblue;
+}

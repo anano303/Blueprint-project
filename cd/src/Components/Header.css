@@ -55,7 +55,6 @@ ul {
 }
 
 header nav {
-  width: 100%;
   min-height: 100%;
   background: #ffffff;
   position: absolute;
@@ -84,9 +83,12 @@ nav ul li {
 header nav button {
   color: #dfdfdf;
   background: #000000;
-  max-width: 100%;
+  /* min-width: 100%; */
   min-height: 48px;
   margin-right: 32px;
+}
+.opened button {
+  min-width: 100%;
 }
 
 .invisible {
@@ -97,6 +99,9 @@ header nav button {
 .opened {
   opacity: 1;
   transition: all 2s;
+}
+.invisible ul {
+  margin-left: -32px;
 }
 
 .img1 {
@@ -159,8 +164,10 @@ header nav button {
   }
 
   header img {
-    margin-left: 11px;
+    /* margin-left: 11px; */
     z-index: 999;
+    width: 100px;
+    margin-bottom: 10px;
   }
 
   header hr {
@@ -169,16 +176,21 @@ header nav button {
 
   .invisible ul {
     display: flex;
-    gap: 37px;
+
+    gap: 50px;
     margin-bottom: 12px;
   }
 
   .invisible ul li {
-    font-weight: 700;
-    font-size: 12px;
+    font-family: DM + Sans;
+    /* font-weight: 800; */
+    font-size: 16px;
     line-height: 16px;
     letter-spacing: 2px;
-    color: #000000;
+    color: #230368;
+  }
+  .invisible ul li:hover {
+    color: #3f0ab3;
   }
   .invisible button {
     color: #dfdfdf;
@@ -222,12 +234,8 @@ header nav button {
   #nav {
     z-index: 1;
   }
-}
-
-@media screen and (min-width: 1000px) {
-  .header {
-    margin-left: 100px;
-    margin-right: 100px;
+  .logo {
+    width: 100px;
   }
 }
 
@@ -236,10 +244,8 @@ header nav button {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
   }
-
-  .header {
-    margin-left: 153px;
-    margin-right: 153px;
+  .logo {
+    width: 100px;
   }
 
   .invisible ul {

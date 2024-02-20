@@ -1,0 +1,24 @@
+.footer {
+  background-image: url(../Assets/მთავარუ.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: white;
+}
+.footer a {
+  color: white;
+}
+.icons {
+  display: flex;
+  gap: 7px;
+  margin-top: 15px;
+}
+.icons svg {
+  background-color: wheat;
+  padding: 5px;
+  border-radius: 1px;
+}

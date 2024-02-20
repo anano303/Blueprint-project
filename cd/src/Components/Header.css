@@ -1,0 +1,262 @@
+header {
+  padding: 28px 24px 24px 28px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+}
+
+.logo {
+  width: 70px;
+  height: 30px;
+}
+
+.menuBar {
+  display: inline-block;
+  cursor: pointer;
+  opacity: 1;
+}
+.bar1,
+.bar2 {
+  width: 20px;
+  height: 1px;
+  background: #000000;
+  margin: 4px 0px;
+  transition: 0.4s;
+}
+.clicked {
+  opacity: 0;
+  width: 20px;
+  height: 1px;
+  background: #000000;
+}
+a,
+li,
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.none {
+  height: 16px;
+  width: 16px;
+  display: none;
+}
+.none img {
+  width: 100%;
+  height: 100%;
+}
+
+.click {
+  display: block;
+}
+
+header nav {
+  width: 100%;
+  min-height: 100%;
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(100%);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+nav ul {
+  align-items: center;
+}
+
+nav ul li {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #000000;
+}
+header nav button {
+  color: #dfdfdf;
+  background: #000000;
+  max-width: 100%;
+  min-height: 48px;
+  margin-right: 32px;
+}
+
+.invisible {
+  opacity: 0;
+  transition: all 2s;
+}
+
+.opened {
+  opacity: 1;
+  transition: all 2s;
+}
+
+.img1 {
+  margin-bottom: -5px;
+}
+.img1 img {
+  display: block;
+  min-width: 100%;
+}
+
+.header-content {
+  padding: 48px 29px 48px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #000000;
+}
+
+.header-content h3,
+.card h3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.header-content h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 3.33333px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .img1 img {
+    display: none;
+  }
+  .header-content {
+    background: transparent;
+    width: 387px;
+    padding: 0px;
+  }
+  .invisible {
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    transform: translateY(22%);
+    transition: all 0s;
+    padding: 16px;
+    background-color: transparent;
+  }
+  header {
+    padding-bottom: 0;
+  }
+
+  header img {
+    margin-left: 11px;
+    z-index: 999;
+  }
+
+  header hr {
+    display: none;
+  }
+
+  .invisible ul {
+    display: flex;
+    gap: 37px;
+    margin-bottom: 12px;
+  }
+
+  .invisible ul li {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #000000;
+  }
+  .invisible button {
+    color: #dfdfdf;
+    width: 158px;
+    margin-left: 37px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-bottom: 18px;
+  }
+  .menuBar {
+    opacity: 0;
+  }
+
+  .header-content h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 4.16667px;
+  }
+  .header-content h3 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+  }
+
+  .section1 .header-content .p2 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .navigation .flex {
+    flex-direction: row;
+  }
+  #nav {
+    z-index: 1;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .header {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section2 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  .header {
+    margin-left: 153px;
+    margin-right: 153px;
+  }
+
+  .invisible ul {
+    margin-right: 160px;
+    margin-left: 160px;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .grid2 {
+    margin-top: 50px;
+  }
+
+  .navigation .flex {
+    flex-direction: column;
+    transform: translateX(350%);
+    align-items: self-start;
+  }
+}

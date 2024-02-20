@@ -1,0 +1,17 @@
+.main {
+  background-image: url(../Assets/მთავარუ.jpg);
+  padding: 20px 40px;
+  margin-bottom: 35px;
+  color: rgb(52, 217, 239);
+}
+.poto {
+  max-width: 100%;
+  margin-top: 35px;
+}
+.home-h2 {
+  text-align: center;
+}
+.home-h2 span {
+  border: 2px solid pink;
+  padding: 1px;
+}

@@ -1,6 +1,26 @@
 header {
   padding: 28px 24px 24px 28px;
 }
+/* Header.css */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* Add your desired background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a subtle elevation effect */
+  z-index: 1000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Add other styles for your logo, menu bar, nav, etc. */
 
 .header {
   display: flex;
@@ -140,7 +160,7 @@ header nav button {
   color: #ffffff;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 998px) {
   .img1 img {
     display: none;
   }

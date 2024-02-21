@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 120px;
+  min-height: 100vh;
 }
 .imgs {
   display: flex;
@@ -29,7 +30,7 @@
   margin-bottom: 2px;
   color: aqua;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
   padding: 2px;
@@ -48,5 +49,8 @@
   }
   .carousel-list-item {
     height: 400px;
+  }
+  .carousel-list-item span {
+    font-size: 18px;
   }
 }

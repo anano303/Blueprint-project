@@ -17,12 +17,13 @@
   margin-top: 35px;
 }
 .main h1 {
-  font-style: inherit;
-  font-weight: bolder;
-  font-size: 40px;
+  font-family: "BPG Nino Elite Ultra Caps", sans-serif;
+  font-style: unset;
+  /* font-weight: bolder; */
+  font-size: 30px;
   letter-spacing: 2px;
   text-align: center;
-  color: rgb(228, 118, 162);
+  color: rgb(184, 225, 217);
 
   max-width: 500px;
 }

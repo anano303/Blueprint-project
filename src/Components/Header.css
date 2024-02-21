@@ -87,6 +87,7 @@ nav ul {
 }
 
 nav ul li {
+  font-family: "BPG Nino Elite Ultra Caps", sans-serif;
   font-weight: 700;
   font-size: 15px;
   line-height: 20px;
@@ -117,6 +118,12 @@ header nav button {
 }
 .invisible ul {
   margin-left: -32px;
+}
+
+.opened ul {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .img1 {
@@ -191,7 +198,7 @@ header nav button {
 
   .invisible ul {
     display: flex;
-
+    flex-direction: row;
     gap: 50px;
     margin-bottom: 12px;
   }
@@ -201,7 +208,6 @@ header nav button {
     /* font-weight: 800; */
     font-size: 16px;
     line-height: 16px;
-    letter-spacing: 2px;
     color: #230368;
   }
   .invisible ul li:hover {

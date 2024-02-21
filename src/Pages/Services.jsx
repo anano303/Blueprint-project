@@ -86,6 +86,8 @@ const Services = () => {
       {/* <button className="arrow-button" onClick={handleNextClick}>
         Next
       </button> */}
+
+      <h3 className="ani">მიყვარხარ ანიუტააა</h3>
     </div>
   );
 };

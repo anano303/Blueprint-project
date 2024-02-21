@@ -30,8 +30,7 @@ header {
 }
 
 .logo {
-  width: 70px;
-  height: 30px;
+  width: 200px;
 }
 
 .menuBar {
@@ -110,7 +109,7 @@ nav ul li {
 }
 header nav button {
   color: #dfdfdf;
-  background: #000000;
+  background: #0b0124;
   /* min-width: 100%; */
   min-height: 48px;
   margin-right: 32px;
@@ -231,7 +230,7 @@ header nav button {
     border: none;
     cursor: pointer;
     transition: all 0.3s;
-    margin-bottom: 18px;
+    margin-bottom: 48px;
   }
   .menuBar {
     opacity: 0;
@@ -262,9 +261,9 @@ header nav button {
   #nav {
     z-index: 1;
   }
-  .logo {
+  /* .logo {
     width: 100px;
-  }
+  } */
 }
 
 @media screen and (min-width: 1440px) {
@@ -272,9 +271,9 @@ header nav button {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
   }
-  .logo {
+  /* .logo {
     width: 100px;
-  }
+  } */
 
   .invisible ul {
     margin-right: 160px;

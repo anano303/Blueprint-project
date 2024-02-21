@@ -7,8 +7,8 @@ const Footer = () => {
         CONTACT <span>US</span>
       </h2>
       <div className="sec2">
-        <a href="#"> Hello@blueprint.ge</a>
-        <a href="#">+995 577 406 409</a>
+        <a href="mailto:Hello@blueprint.ge">Hello@blueprint.ge</a>
+        <a href="tel:+995577406409">+995 577 406 409</a>
         <div className="icons">
           <a class="facebook" href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">

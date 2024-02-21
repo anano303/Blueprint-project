@@ -4,29 +4,26 @@
   align-items: center;
   margin-top: 160px;
 }
-.imgs {
-  display: flex;
-  height: 90%;
-}
 
 .carousel-container {
   width: 100%;
-
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .carousel-container ul {
   gap: 10px;
 }
 .react-multi-carousel-list {
   overflow-y: visible;
+  padding-top: 100px;
 }
 
 .carousel-list-item {
   display: flex;
   flex-direction: column;
-  padding: 7px;
+  gap: 5px;
+  /* padding: 7px; */
   border-radius: 5px;
-  height: 250px;
+  /* height: 270px; */
   border-radius: 5px;
 }
 .carousel-list-item:hover {
@@ -46,14 +43,21 @@
 
 .carousel-list-item span {
   text-align: center;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
   color: aqua;
   font-weight: 700;
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  padding: 2px;
+  position: absolute;
+  top: -28%;
+  left: 10%;
+  /* padding: 2px; */
 }
+/* .carousel-list-item span:hover {
+  top: 0;
+} */
+
 .carousel-img {
   width: 100%;
   height: 200px;
@@ -74,5 +78,8 @@
   }
   .carousel-list-item span {
     font-size: 18px;
+    position: absolute;
+    top: -13%;
+    left: 10%;
   }
 }

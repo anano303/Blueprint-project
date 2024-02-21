@@ -30,11 +30,11 @@ const Services = () => {
     },
   };
 
-  const handleNextClick = () => {
-    if (carouselRef.current) {
-      carouselRef.current.next();
-    }
-  };
+  // const handleNextClick = () => {
+  //   if (carouselRef.current) {
+  //     carouselRef.current.next();
+  //   }
+  // };
 
   return (
     <div className="services">
@@ -64,12 +64,12 @@ const Services = () => {
                 <span className="text">
                   {
                     [
-                      "პოლიგრაფია",
-                      "სასაჩუქრე იდეები",
+                      "პოლიგრაფია                                   ",
+                      "სასაჩუქრე იდეები                                  ",
                       "სოციალური ქსელების მართვა",
-                      "პროდაქშენი",
-                      "პორტფოლიო",
-                      "ბეჭდვა",
+                      "პროდაქშენი                                   ",
+                      "პორტფოლიო                                         ",
+                      "ბეჭდვა                                           ",
                     ][index]
                   }
                 </span>

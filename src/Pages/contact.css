@@ -1,5 +1,6 @@
 .contact {
   background-image: url(../Assets/პოლიგრაფია.jpg);
   background-size: cover;
-  height: 600px;
+
+  margin-top: 50px;
 }

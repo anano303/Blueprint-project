@@ -2,6 +2,7 @@
   background-image: url(../Assets/bg-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
   padding: 60px 20px 200px 20px;
   margin-bottom: 35px;
   color: rgb(106, 221, 210);
@@ -22,14 +23,14 @@
   letter-spacing: 1px;
   margin-top: 80px;
   color: rgb(184, 225, 217);
-  max-width: 500px;
+  max-width: 350px;
 }
 .main p {
   font-family: "Kode Mono";
   font-weight: 700;
   font-size: 25px;
   text-align: end;
-  max-width: 700px;
+  max-width: 400px;
   justify-content: end;
   margin-right: 15px;
   padding-top: 30px;
@@ -90,5 +91,18 @@
     max-width: 700px;
     justify-content: end;
     margin-right: 60px;
+  }
+  .main {
+    background-image: url(../Assets/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 20px 200px 20px;
+    margin-bottom: 35px;
+    color: rgb(106, 221, 210);
+    display: flex;
+    gap: 70px;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 35px;
   }
 }

@@ -7,6 +7,7 @@ import image4 from "../Assets/სოციალური ქსელები.
 import image5 from "../Assets/პროდაქშენი.jpg";
 import image6 from "../Assets/პოლიგრაფია.jpg";
 import "./servicies.css"; // Import your CSS file
+import mountain from "../Assets/bg-image2.jpg";
 
 const Services = () => {
   const images = [image1, image3, image4, image5, image6];
@@ -87,7 +88,7 @@ const Services = () => {
         Next
       </button> */}
 
-      <h3 className="ani">მიყვარხარ ანიუტააა</h3>
+      <img className="mountainImage" src={mountain} alt="mountain-img" />
     </div>
   );
 };

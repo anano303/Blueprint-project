@@ -93,16 +93,6 @@
     margin-right: 60px;
   }
   .main {
-    background-image: url(../Assets/bg-image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 60px 20px 200px 20px;
-    margin-bottom: 35px;
-    color: rgb(106, 221, 210);
-    display: flex;
-    gap: 70px;
-    flex-direction: column;
-    align-items: end;
-    margin-top: 35px;
+    background-position: inherit;
   }
 }

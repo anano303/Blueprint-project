@@ -69,6 +69,15 @@
 .mountainImage {
   width: 100%;
 }
+.div {
+  width: 20px;
+  height: 20px;
+  background-color: #bc7198;
+  position: relative;
+}
+.logoanim {
+  position: absolute;
+}
 
 @media screen and (min-width: 768px) {
   .carousel-img {

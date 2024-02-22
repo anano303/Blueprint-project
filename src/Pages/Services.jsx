@@ -8,6 +8,8 @@ import image5 from "../Assets/პროდაქშენი.jpg";
 import image6 from "../Assets/პოლიგრაფია.jpg";
 import "./servicies.css"; // Import your CSS file
 import mountain from "../Assets/bg-image2.jpg";
+// import logo5 from "../Assets/logo anim.png";
+import "./contact.css";
 
 const Services = () => {
   const images = [image1, image3, image4, image5, image6];
@@ -87,7 +89,9 @@ const Services = () => {
       {/* <button className="arrow-button" onClick={handleNextClick}>
         Next
       </button> */}
-
+      {/* <div className="div">
+        <img className="logoAnim" src={logo5} />
+      </div> */}
       <img className="mountainImage" src={mountain} alt="mountain-img" />
     </div>
   );

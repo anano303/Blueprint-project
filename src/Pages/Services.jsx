@@ -46,7 +46,7 @@ const Services = () => {
           responsive={responsive}
           swipeable={true}
           draggable={true}
-          showDots={true}
+          showDots={false}
           infinite={true}
           autoPlay={true}
           autoPlaySpeed={3000}

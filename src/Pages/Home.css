@@ -1,38 +1,45 @@
 .main {
-  background-image: url(../Assets/main.png);
+  background-image: url(../Assets/bg-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 20px 200px 20px;
   margin-bottom: 35px;
   color: rgb(106, 221, 210);
   display: flex;
-  gap: 60px;
+  gap: 70px;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  align-items: end;
   margin-top: 100px;
 }
 .poto {
   max-width: 100%;
   margin-top: 35px;
 }
+/* 
+.mainText {
+  background-image: url(../Assets/bg-image2.jpg);
+  opacity: 0.8;
+  width: 40%;
+} */
 .main h1 {
   font-family: "BPG Nino Elite Ultra Caps", sans-serif;
-  font-style: unset;
+
   /* font-weight: bolder; */
   font-size: 30px;
   letter-spacing: 2px;
-  text-align: center;
+  margin-top: 80px;
   color: rgb(184, 225, 217);
-
   max-width: 500px;
 }
 .main p {
   font-family: "Kode Mono";
   font-weight: 700;
   font-size: 35px;
-  text-align: center;
+  text-align: end;
   max-width: 700px;
+  justify-content: end;
+  margin-right: 60px;
 }
 
 @keyframes fadeIn {

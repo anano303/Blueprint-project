@@ -4,7 +4,8 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff; /* Add your desired background color */
+  background-color: #fff;
+  /* Add your desired background color */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a subtle elevation effect */
   z-index: 1000;
 }

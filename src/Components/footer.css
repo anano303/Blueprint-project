@@ -11,7 +11,7 @@
 }
 
 .footer .sec2 {
-  background-image: url(../Assets/main.png);
+  background-image: url(../Assets/bg-image.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;

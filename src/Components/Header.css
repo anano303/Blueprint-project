@@ -108,6 +108,7 @@ header nav button {
 }
 .opened button {
   max-width: 100%;
+  margin-left: 70px;
 }
 
 .invisible {
@@ -118,9 +119,6 @@ header nav button {
 .opened {
   opacity: 1;
   transition: all 2s;
-}
-.invisible ul {
-  margin-left: -32px;
 }
 
 .opened ul {

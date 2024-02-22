@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 160px;
+  margin-top: 90px;
 }
 
 .carousel-container {
@@ -52,31 +52,16 @@
   position: absolute;
   top: -28%;
   left: 10%;
-  /* padding: 2px; */
 }
-/* .carousel-list-item span:hover {
-  top: 0;
-} */
 
 .carousel-img {
   width: 100%;
   height: 200px;
   border-radius: 5px;
 }
-.ani {
-  margin-bottom: 200px;
-}
+
 .mountainImage {
   width: 100%;
-}
-.div {
-  width: 20px;
-  height: 20px;
-  background-color: #bc7198;
-  position: relative;
-}
-.logoanim {
-  position: absolute;
 }
 
 @media screen and (min-width: 768px) {
